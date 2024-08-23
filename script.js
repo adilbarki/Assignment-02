@@ -41,15 +41,15 @@
 
 
 // Program 5: Checking for Weekend or Weekday
-let day = prompt("Enter the day").toLowerCase();
-let weekendDays = ["saturday", "sunday"];
-let allDays = ["monday", "tuesday", "wednesday", "thursday", "friday", ...weekendDays];
-if (allDays.includes(day)) {
-    if (weekendDays.includes(day)) {
-        alert("It's a weekend!");
-    } else {
-        alert("It's a weekday!");
-    }
-} else {
-    alert("Invalid day. Please enter a day between Monday and Sanday.");
-}
+// let day = prompt("Enter the day").toLowerCase();
+// let weekendDays = ["saturday", "sunday"];
+// let allDays = ["monday", "tuesday", "wednesday", "thursday", "friday", ...weekendDays];
+// if (allDays.includes(day)) {
+//     if (weekendDays.includes(day)) {
+//         alert("It's a weekend!");
+//     } else {
+//         alert("It's a weekday!");
+//     }
+// } else {
+//     alert("Invalid day. Please enter a day between Monday and Sanday.");
+// }
